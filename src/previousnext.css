@@ -1,0 +1,12 @@
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}

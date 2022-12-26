@@ -1,0 +1,31 @@
+
+
+.height{
+    max-height: 100vh;
+}
+
+.videos{
+    margin-bottom: 10px;
+}
+
+td, th{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+td a{
+    text-decoration: none;
+    color:#333;
+    width: 100%;
+    height:100%;
+    display: block;
+}
+
+td a:hover{
+    color:#FF0000;
+}
+
+td a.active{
+    color:#FF0000;
+    background-color: #F1F1F1;
+}
