@@ -4,8 +4,8 @@ function Videos(props) {
 
     return (
             
-            <div className="embed-responsive embed-responsive-16by9 size">
-                <iframe className="embed-responsive-item size" src={props.links} allowfullscreen></iframe>
+            <div className="ratio ratio-16x9">
+                <iframe title="YouTube video" allowfullscreen src={props.links} ></iframe>
             </div>
             
     );
