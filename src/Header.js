@@ -23,12 +23,10 @@ const Header = () =>{
 
 export default Header;
 $(document).ready(function(){
-    $("#openbutton").click(function(){
-    
-    $(".overflow-auto").toggleClass("d-none");
-
-
+    $("#openbutton ,.link").click(function(){
+       $(".overflow-auto").toggleClass("d-none");
     });
+   
 });
 
     
